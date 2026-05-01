@@ -1,0 +1,26 @@
+FP_GROUP01_Juphens_Cherfils_ITAI2372/
+├── README.md
+├── requirements.txt
+├── src/
+│   ├── main.py
+│   ├── data_generator.py
+│   └── risk_model.py
+├── data/
+│   └── sample_mission_data.csv
+├── docs/
+│   ├── project_proposal.md
+│   ├── detailed_solution_plan.md
+│   ├── testing_plan.md
+│   └── Project_Documentation.pdf
+├── slides/
+│   ├── Presentation_Slides.pptx
+│   └── Presentation_Slides.pdf
+└── outputs/
+    └── risk_report.csv
+src/main.py
+src/data_generator.py
+src/risk_model.py
+pip install -r requirements.txt
+python src/data_generator.py
+python src/main.py
+outputs/risk_report.csv
